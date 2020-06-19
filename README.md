@@ -8,10 +8,10 @@ MobileNetV2-YOLOv3-SPP|71.7|416|5ms|5.5BFlops|14.2
 
 *emmmm...这个懒得训练，mAP就凑合这样吧
 ## Mobile inference frameworks benchmark
-Network|VOC mAP(0.5)|COCO mAP(0.5)|Resolution|Inference time (NCNN/Mate30)|FLOPS|Weight size
-:---:|:---:|:---:|:---:|:---:|:---:|:---:
-MobileNetV2-YOLOv3-Lite|72.61|35.2|320|33 ms|2.1BFlops|9.8MB
-[yolov3-tiny-prn](https://github.com/AlexeyAB/darknet#pre-trained-models)|&|33.1|416|& ms|3.5BFlops|18.8MB
+Network|VOC mAP(0.5)|COCO mAP(0.5)|Resolution|Inference time (NCNN/Mate30)|Inference time (NNN arm82/Mate30)|FLOPS|Weight size
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+MobileNetV2-YOLOv3-Lite|72.61|35.2|320|33 ms|18 ms|2.1BFlops|9.8MB
+[yolov3-tiny-prn](https://github.com/AlexeyAB/darknet#pre-trained-models)|&|33.1|416|& ms|& ms|3.5BFlops|18.8MB
 
 * Darknet Train Configuration: CUDA-version: 10010 (10020), cuDNN: 7.6.4,OpenCV version: 4.9.1 GPU:RTX2080
 * Darknet Packet convolution is not well supported on some GPUs such as gtx1080ti, and the MobileNetV2-YOLOv3-SPP	inference time is 100ms
