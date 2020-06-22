@@ -18,6 +18,7 @@ MobileNetV2-YOLO-Tiny|&|30.4|304|& ms|11 ms|1.5Flops|3.9MB
 * Darknet Packet convolution is not well supported on some GPUs such as gtx1080ti, and the MobileNetV2-YOLOv3-SPP	inference time is 100ms
 * Support mobile inference frameworks such as NCNN 
 ## NCNN 转换教程
-* https://github.com/Tencent/ncnn/tree/master/tools/darknet
+* benchmark:https://github.com/Tencent/ncnn/tree/master/benchmark
+* darknet2ncnn: https://github.com/Tencent/ncnn/tree/master/tools/darknet
 ## Reference&Framework instructions
 https://github.com/AlexeyAB/darknet
