@@ -20,5 +20,7 @@ MobileNetV2-YOLO-Tiny|&|30.4|304|& ms|11 ms|1.5Flops|3.9MB
 ## NCNN 转换教程
 * benchmark:https://github.com/Tencent/ncnn/tree/master/benchmark
 * darknet2ncnn: https://github.com/Tencent/ncnn/tree/master/tools/darknet
+## NNN 转换教程
+* 待完成
 ## Reference&Framework instructions
 https://github.com/AlexeyAB/darknet
