@@ -14,7 +14,7 @@ MobileNetV2-YOLOv3-Lite|72.61|35.2|320|33 ms|18 ms|2.1BFlops|9.8MB
 MobileNetV2-YOLO-Tiny|61.17|30.4|304|26 ms|11 ms|1.5Flops|3.9MB
 [yolov3-tiny-prn](https://github.com/AlexeyAB/darknet#pre-trained-models)|&|33.1|416|& ms|& ms|3.5BFlops|18.8MB
 [YOLO-Tiny](https://pjreddie.com/darknet/yolov2/)|57.1|&|416|& ms|& ms|6.97Flops|60.5MB
-[MobileNet-SSD](https://pjreddie.com/darknet/yolov2/)|72.7|&|300|& ms|& ms|&Flops|&MB
+[MobileNet-SSD](https://github.com/chuanqi305/MobileNet-SSD)|72.7|&|300|& ms|& ms|&Flops|&MB
 
 
 * Darknet Train Configuration: CUDA-version: 10010 (10020), cuDNN: 7.6.4,OpenCV version: 4 GPU:RTX2080ti
