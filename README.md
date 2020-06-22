@@ -16,7 +16,7 @@ MobileNetV2-YOLO-Tiny|&|30.4|304|& ms|11 ms|1.5Flops|3.9MB
 
 * Darknet Train Configuration: CUDA-version: 10010 (10020), cuDNN: 7.6.4,OpenCV version: 4 GPU:RTX2080ti
 * Darknet Packet convolution is not well supported on some GPUs such as gtx1080ti, and the MobileNetV2-YOLOv3-SPP	inference time is 100ms
-* Support mobile inference frameworks such as NCNN 
+* Support mobile inference frameworks such as NCNN&MNN 
 ## NCNN 转换教程
 * benchmark:https://github.com/Tencent/ncnn/tree/master/benchmark
 * darknet2ncnn: https://github.com/Tencent/ncnn/tree/master/tools/darknet
